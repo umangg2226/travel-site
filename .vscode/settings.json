@@ -1,6 +1,8 @@
 {
   "editor.fontFamily": "product sans",
    "editor.wordWrap": "on",
+   "editor.letterSpacing": 0.5,
+
    
    "emmet.includeLanguages":{
     "postcss": "css"
