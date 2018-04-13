@@ -1207,3 +1207,16 @@ a {
       background-color: transparent
   }
   }
+
+.reavel-item {
+  opacity: 0;
+  transition: all 1.5s ease-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.reavel-item--is-visible {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
